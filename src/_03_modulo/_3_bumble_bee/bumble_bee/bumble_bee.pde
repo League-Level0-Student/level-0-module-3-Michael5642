@@ -1,4 +1,8 @@
-
+int ex = 0;
+int ey = 0;
+int r = 255;
+int g = 243;
+int b = 0;
 void setup() {
      ellipseMode(CENTER);
      size(500, 500);
@@ -16,12 +20,30 @@ void draw() {
 Use modulo to make the colors alternate between yellow and black
 */
 
+for(int i = 0; i <10; i++){
+  fill(r,g,b);
+ellipse(ex,ey,30,30);
+ex = ex+10;
+ey = ey+10;
+if(ex>=500&&ey>=500){
+ex = 470;
+ey = 470;
+}
+if(i%2 == 0){
+r = 0;
+g = 0;
+}
+else{
+r = 255;
+g = 243;
+}
+}
 
 
 /*
 Now put his head on using drawBeeFace(x,y)
 */
-
+drawBeeFace(470,470);
 }
 
 /**************   Use these methods but  DON'T CHANGE THE CODE BELOW  **************/

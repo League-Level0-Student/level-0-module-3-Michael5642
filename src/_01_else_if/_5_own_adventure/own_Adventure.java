@@ -1,15 +1,8 @@
 package _01_else_if._5_own_adventure;
-import java.awt.Dimension;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+
 import java.util.Random;
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-import javax.swing.JPanel;
+
 public class own_Adventure {
 	public static void main(String[] args) {
 		Random chance = new Random();
