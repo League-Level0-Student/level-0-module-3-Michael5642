@@ -18,7 +18,6 @@ void draw() {
     ellipse(250,250,width1,height1);
     width1 = width1 - 50;
     height1 = height1 - 50;
-    print("hello");
   if(width1<=0&&height1<=0){
   width1 = 0;
   height1 = 0;
@@ -28,7 +27,7 @@ void draw() {
   b = 255;
   g = 255;
   }
-  else{
+  else {
   r = 0;
   b = 0;
   g = 0;

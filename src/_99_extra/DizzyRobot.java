@@ -21,7 +21,7 @@ public class DizzyRobot {
 	
 	static void dance(int numberOfSpins) {
 		for (int i = 0; i < numberOfSpins; i++) {
-			robot.setSpeed(50);
+			robot.setSpeed(10);
 			robot.turn(360);
 		}
 	}

@@ -25,7 +25,7 @@ for(int i = 0; i <10; i++){
 ellipse(ex,ey,30,30);
 ex = ex+10;
 ey = ey+10;
-if(ex>=500&&ey>=500){
+if(ex>=480&&ey>=480){
 ex = 470;
 ey = 470;
 }
